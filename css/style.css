@@ -1,0 +1,250 @@
+body {
+    margin: auto;
+    background: white;
+    text-align: center;
+    color: #545454;
+}
+
+/* nav bar */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #e0ebe8;
+    margin: 0;
+    padding: 39px 0px 1px;
+}
+
+li, a, button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+
+}
+
+.logo {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+    padding-left: 130px;
+
+}
+
+.list {
+    list-style: none;
+    padding-right: 110px;
+    position: sticky;
+
+}
+
+.list li {
+    display: inline-block;
+    padding: 0px 30px;
+
+
+}
+
+.list a {
+    transition: all 0.3s ease 0s;
+    color: #4fbdba;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.list a:hover {
+    color: rgb(53, 41, 41);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    cursor: pointer;
+    transition: all 0.3s ease 0s ;
+    border-radius: 50px;
+}
+
+
+/* nav bar */
+/* top container */
+h1 {
+    margin: 0px ;
+    font-family: 'Sacramento', cursive;
+    font-size: 450%;
+    color: #1e836c;
+    line-height: 2;
+}
+
+h2 {     color: #1e836c;
+    font-family: 'Dosis', sans-serif;
+    margin: 0px;
+    padding-bottom: 10px;
+    font-size: 2.2em;
+    font-weight:900;
+
+}
+
+h3 {
+    color: #1e836c;
+    font-family: 'Economica', sans-serif;
+    font-size: 1.7em;
+
+}
+
+.job {
+    color: #1e836c;
+    font-family: 'Dosis', sans-serif;
+    margin: 0px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+
+}
+
+.top-container {
+    background: #e0ebe8;
+    position: relative;
+    padding-top: 95px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 224px;
+    top: 50px;
+    opacity: 0.9;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.extracloud{
+    position: absolute;
+    right: 300px;
+    bottom: 250px;
+    opacity: 0.7;
+}
+/* top container */
+
+/* profile */
+.profile {
+
+    padding: 70px;
+
+}
+
+.intro {
+    width: 40%;
+    margin: auto;
+    font-size: 1.2em;
+    padding-top: 20px;
+
+}
+
+.hugpic {
+    height: 140px;
+    width: 140px;
+}
+/* profile */
+
+/* skills */
+.skill-row {
+    width: 50%;
+    margin: 60px auto 60px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+
+.pix {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.pix2 {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+
+/* skills */
+
+
+hr {
+    border: dotted #c4dfdf 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 10px auto 60px;
+    padding-bottom: 0px;
+
+}
+
+p { text-align: center;
+    line-height:2;
+    font-size: 1.2em;
+    font-family: 'Sarala', sans-serif;
+}
+
+
+/* bottome container */
+
+.bottom-container {
+    background-color: #e0ebe8;
+    padding: 50px 0 20px;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+
+.btn {
+	box-shadow: 0px 0px 0px 0px #e0ebe8;
+	background:linear-gradient(to bottom, #5ab5b2 5%, #2abd6e 100%);
+	background-color:#5ab5b2;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:11px;
+	padding:13px 120px;
+    margin-bottom: 30px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+    margin-top: 50px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #2abd6e 5%, #5ab5b2 100%);
+	background-color:#2abd6e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-me {
+    margin: 90px auto 80px;
+}
+
+.footer-link {
+    color: #1e836c;
+    padding: 20px;
+}
+
+.lastp {
+    width: 55%;
+    margin: auto;
+    font-size: 1.2em;
+}
+
+.copy {
+    font-size: 0.8em;
+    color: #1e836c;
+    margin-top: 30px;
+
+}
